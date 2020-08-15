@@ -43,6 +43,7 @@ export default function Logout(props) {
   };
   const HandleLogOut = (props) => {
     localStorage.clear();
+    window.location.pathname = "/";
     window.location.reload(false);
   };
   const body = (
