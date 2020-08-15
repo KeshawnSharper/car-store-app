@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import { Route, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 function rand() {
   return Math.round(Math.random() * 20) - 10;
 }
@@ -42,16 +43,15 @@ export default function Logout(props) {
     setOpen(false);
   };
   const HandleLogOut = (props) => {
-    window.location.pathname = "/";
-    window.location.reload(false);
     localStorage.clear();
   };
   const body = (
     <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">Are You sure you want to Log Out ?</h2>
-      <button style={{ paddingLeft: 10 }} onClick={HandleLogOut}>
+      <Link onClick={handleClose} to="/"><button style={{ paddingLeft: 10 }} onClick={HandleLogOut}>
         Yes{" "}
       </button>
+      </Link> 
       <button style={{ paddingLeft: 10 }} onClick={handleClose}>
         No{" "}
       </button>
