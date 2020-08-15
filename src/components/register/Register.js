@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./register.css";
 import axios from "axios";
-
+import Loader from "react-loader-spinner";
 class Register extends Component {
   constructor(props) {
     super(props);
@@ -82,6 +82,15 @@ class Register extends Component {
     return (
       <div className="login-page">
         <div className="form">
+          {this.state.loading ? (
+            <Loader
+              type="ThreeDots"
+              color="#00BFFF"
+              height={100}
+              width={300}
+              //3 secs
+            />
+          ) : null}
           <form className="register-form" onSubmit={this.displayLogin}>
             {this.state.error ? <h3>Try again </h3> : null}
             <input

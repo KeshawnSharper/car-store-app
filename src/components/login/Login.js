@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import axios from "axios";
+import Loader from "react-loader-spinner";
 import { login } from "../actions/StoreActions";
 const mapStateToProps = (state) => {
   return {
@@ -69,7 +70,15 @@ class Login extends Component {
     return (
       <div className="login-page">
         <div className="form">
-          {this.state.loading ? <p>loading...</p> : null}
+          {this.state.loading ? (
+            <Loader
+              type="ThreeDots"
+              color="#00BFFF"
+              height={100}
+              width={300}
+              //3 secs
+            />
+          ) : null}
           <form className="login-form" onSubmit={this.displayLogin}>
             {this.state.error ? <h3>Try again </h3> : null}
             <input

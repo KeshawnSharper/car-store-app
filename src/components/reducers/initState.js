@@ -1,34 +1,64 @@
-import lambo from "../images/lambo.jpg";
-import ferrari from "../images/ferrari.jpg";
-import mcclaren from "../images/mcclaren.jpg";
-import rollsRoyce from "../images/rollsroyce.jpg";
-import BMW from "../images/bmw.jpg";
-import porshe from "../images/porshe.jpg";
-import tesla from "../images/tesla.jpg";
-import corvette from "../images/corvette.jpg";
+let lambo =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597504746/Lambo_ktctet.jpg";
+let ferrari =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597504900/anastase-maragos-12v3-XZ2HwY-unsplash_xoxitx.jpg";
+let mcclaren =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505446/matt-atherton-9hXzUYOxETA-unsplash_gjqupq.jpg";
+let rollsRoyce =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505591/balkouras-nicos-Kb7mTtpXwXs-unsplash_pqjasb.jpg";
+let BMW =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505661/cris-dinoto-MhXG7YOLbTQ-unsplash_ih9jb5.jpg";
+let porshe =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505734/teddy-osterblom-bDka494APVA-unsplash_ozvfp3.jpg";
+let tesla =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505791/colton-kresser-TXkHUO8hg7w-unsplash_rr8d8o.jpg";
+let corvette =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597505878/mostafa-jamei-e7Ydtjl7I2w-unsplash_gbtdhr.jpg";
 
-import aventador from "../images/aventador.jpg";
-import huracan from "../images/huracan.jpg";
-import urus from "../images/urus.jpg";
-import ferrari_488 from "../images/488.jpg";
-import ferrari_812 from "../images/812.jpg";
-import ferrari_f8 from "../images/f8.jpg";
-import p1 from "../images/p1.jpg";
-import mclaren_720s from "../images/720s.jpg";
-import senna from "../images/senna.jpg";
-import mcclaren_570s from "../images/570s.jpg";
-import wraith from "../images/wraith.jpg";
-import phantom from "../images/phantom.jpg";
-import ghost from "../images/ghost.jpg";
-import series_5 from "../images/series_5.jpg";
-import series_x5 from "../images/series_x5.jpg";
-import bmw_i8 from "../images/i8.jpg";
-import bmw_x1 from "../images/x1.jpg";
-import porshe_911 from "../images/911.jpg";
-import macan from "../images/macan.jpg";
-import model_3 from "../images/model_3.jpg";
-import model_x from "../images/model_x.jpg";
-import model_y from "../images/model_y.jpg";
+let aventador =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506242/marc-kleen-8hU6vtwY8l8-unsplash_th9she.jpg";
+let huracan =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506307/thomas-haas-S5o_y8XM7yI-unsplash_pys8ha.jpg";
+let urus =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506372/andrei-ianovskii-OGpX6dP5b-A-unsplash_ubp21i.jpg";
+let ferrari_488 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506484/joshua-adams-HNbpdFSLOwk-unsplash_nwllf7.jpg";
+let ferrari_812 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506623/goh-rhy-yan-f_SDCASisgs-unsplash_gkxxvm.jpg";
+let ferrari_f8 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506714/brandon-atchison-ndrjunfmqwY-unsplash_cqc3pm.jpg";
+let p1 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506907/cory-rogers-XFIC1PcAIww-unsplash_vy7iro.jpg";
+let mclaren_720s =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597506970/guille-sanchez-DYTd-U7QcfQ-unsplash_muiytc.jpg";
+let senna =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507056/spencer-davis-RIV1GdL_G_g-unsplash_diyi6l.jpg";
+let mcclaren_570s =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507156/tim-carey-o9FAllruDN0-unsplash_kxrnhd.jpg";
+let wraith =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507263/derek-lynn-8cAfCERmwd4-unsplash_al3wf6.jpg";
+let phantom =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507337/jannis-lucas-vKm6sG82na0-unsplash_bazkay.jpg";
+let ghost =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507417/ye-massa-eGfy5lxSKjU-unsplash_g7mc6j.jpg";
+let series_5 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507417/ye-massa-eGfy5lxSKjU-unsplash_g7mc6j.jpg";
+let series_x5 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507417/ye-massa-eGfy5lxSKjU-unsplash_g7mc6j.jpg";
+let bmw_i8 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507841/fernando-marques-dzZV4PpQ-NI-unsplash_d2uqkd.jpg";
+let bmw_x1 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597507928/share-now-CLhByn5Hkdo-unsplash_lik9f8.jpg";
+let porshe_911 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597508040/teddy-osterblom-bDka494APVA-unsplash_1_eupatq.jpg";
+let macan =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597508150/dean-oriade-8REOn1MR4xk-unsplash_qlnzlz.jpg";
+let model_3 =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597508214/kyle-reed-n5pFZHSTsKU-unsplash_toesx7.jpg";
+let model_x =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597508264/martin-katler-DiJR_M1Mv_A-unsplash_t6ujr8.jpg";
+let model_y =
+  "https://res.cloudinary.com/di449masi/image/upload/v1597508326/jorgen-hendriksen-Sp2kTxW-t5I-unsplash_xcrldv.jpg";
 // import huracan from "../images/huracan.jpg";
 // import cupcake3 from "../images/sweet-frosting.jpg";
 // import cupcake4 from "../images/royal-red.jpg";
