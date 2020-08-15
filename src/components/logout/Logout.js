@@ -42,9 +42,9 @@ export default function Logout(props) {
     setOpen(false);
   };
   const HandleLogOut = (props) => {
-    localStorage.clear();
     window.location.pathname = "/";
     window.location.reload(false);
+    localStorage.clear();
   };
   const body = (
     <div style={modalStyle} className={classes.paper}>
